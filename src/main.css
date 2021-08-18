@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(5, 2, 20);
+	color: #eee;
+}
+
+section {
+	width: 90%;
+	max-width: 1200px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+form {
+	width: 100%;
+	max-width: 500px;
+	background: rgb(31, 5, 56);
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h2 {
+	padding: 20px 0;
+	color: rgb(105, 102, 250);
+}
+
+.error {
+	color: rgb(251, 83, 78);
+}
+.success {
+	color: rgb(56, 246, 129);
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	margin-bottom: 20px;
+}
+.form-group:last-of-type {
+	margin-bottom: 40px;
+}
+label {
+	text-transform: uppercase;
+}
+input,
+select,
+button {
+	display: block;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 0;
+	width: 100%;
+}
+input {
+	outline: none;
+	padding: 10px;
+}
+button {
+	cursor: pointer;
+	background: rgb(41, 15, 155);
+	color: #eee;
+}
+button:disabled {
+	opacity: 0.5;
+	cursor: none;
+}
+input[type='checkbox'] {
+	width: auto;
+}
+.checkbox-input {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
